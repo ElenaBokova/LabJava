@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "512fb57c-2104-445f-9beb-35e0d97639b6",
+		"name": "MyCollectionPostman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "First ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://jsonplaceholder.typicode.com/users/1?name=Leanne Graham&email=Sincere@april.biz&phone=1-770-736-8031 x56442",
+					"protocol": "http",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"users",
+						"1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Leanne Graham"
+						},
+						{
+							"key": "email",
+							"value": "Sincere@april.biz"
+						},
+						{
+							"key": "phone",
+							"value": "1-770-736-8031 x56442"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Second",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://jsonplaceholder.typicode.com/posts?id=2",
+					"protocol": "http",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Third",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://jsonplaceholder.typicode.com/todos?id=5",
+					"protocol": "http",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"todos"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "11",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Bokova Elena",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "alena@yandex.ru",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "89003332244",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://jsonplaceholder.typicode.com/users",
+					"protocol": "http",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
